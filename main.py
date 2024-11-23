@@ -1,5 +1,6 @@
 from fastapi import FastAPI
-from routes import expenses, auth
+
+# from routes import expenses, auth
 import uvicorn
 
 app = FastAPI(title="Expense Tracker API")
